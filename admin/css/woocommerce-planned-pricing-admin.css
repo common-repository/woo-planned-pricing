@@ -1,0 +1,32 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#wpp_product_from, 
+#wpp_product_to,
+#wpp_product_price,
+#wpp_product_note {
+	
+	margin: 0px 0px 0px 8px;
+}
+
+.postbox .woocommerce-help-tip {margin: 0}
+.wpp-wrap table {
+	width: 100%;
+	border: 1px solid #ddd;
+	border-spacing: 0;
+	background-color: #f9f9f9;
+	margin: 0;
+}
+.wpp-wrap table thead tr th {
+	background: #f1f1f1;
+	padding: 5px 8px 8px;
+}
+td.wpp_product_number {width: 15%}
+td.wpp_product_number input[type=number] {height: 27px}
+td.wpp_product_text {width: 20%}
+td.wpp_product_text p, td.wpp_product_number p {margin-top: 0}
+td.wpp_product_area {width: 40%}
+td.wpp_product_add, td.wpp_product_remove {width: 5%}
+td.wpp_product_add p, td.wpp_product_remove p {margin-right: 8px}
